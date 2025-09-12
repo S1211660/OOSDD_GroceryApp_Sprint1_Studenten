@@ -97,6 +97,9 @@ StyleCopReport.xml
 *.pidb
 *.svclog
 *.scc
+.vscode/
+*.swp
+*.swo
 
 # Chutzpah Test files
 _Chutzpah*
@@ -363,3 +366,7 @@ MigrationBackup/
 FodyWeavers.xsd
 
 .idea/
+
+# MAUI specifieke uitgesloten bestanden  
+bin/
+obj/
